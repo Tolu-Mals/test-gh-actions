@@ -26,6 +26,7 @@ jobs:
           pr_body: 'Automated Pull Request'
           pr_label: 'auto-merge'
 
+
       # https://github.com/marketplace/actions/pull-request-merge
       - name: enable automerge
         uses: sudo-bot/action-pull-request-merge@v1.1.1
