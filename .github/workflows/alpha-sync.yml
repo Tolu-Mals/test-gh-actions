@@ -1,5 +1,5 @@
 name: Merge Main Into Alpha
-# Let's make sure this thing works 😂
+# Okay, cool it works 😂
 on:
   push:
     branches:
@@ -29,7 +29,7 @@ jobs:
 
       # https://github.com/marketplace/actions/pull-request-merge
       - name: enable automerge
-        uses: sudo-bot/action-pull-request-merge@v1.1.1
+        uses: sudo-bot/action-pull-request-merge@v1.2.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ steps.open-pr.outputs.pr_number }}
