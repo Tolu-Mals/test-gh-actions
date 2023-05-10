@@ -6,7 +6,7 @@ on:
       - 'main'
 
 jobs:
-  main:
+  update-alpha:
     name: Create PR Release to Alpha
     runs-on: ubuntu-latest
     steps:
